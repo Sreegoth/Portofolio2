@@ -1,0 +1,43 @@
+h1{
+    padding-top: 200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightseagreen;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    box-shadow:4px ;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    
+}
+
+.first a {
+    text-decoration: none;
+    color: red;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.first a:hover {
+    color: #007BFF;
+}
+
+.logo {
+    max-height: 40px;
+}
+
