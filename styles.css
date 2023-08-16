@@ -30,7 +30,7 @@ header {
     text-decoration: none;
     color: red;
     margin-right: 20px;
-    transition: color 0.3s ease;
+    transition: color;
 }
 
 .first a:hover {
